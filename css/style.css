@@ -1,5 +1,11 @@
 
-#nav-bar >ul {
+
+#header {
+	position: sticky;
+	top: 0;
+}
+
+#nav-bar > ul {
 	display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -10,8 +16,3 @@
 	 list-style-type:none;
 }
 
-
-
-#page {
-	display: flex;
-}
