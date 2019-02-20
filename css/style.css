@@ -1,6 +1,15 @@
-#nav-bar {
-	position: top;
+
+#nav-bar >ul {
+	display: flex;
+    flex-direction: row;
+    justify-content: space-around;
 }
+
+#nav-bar>ul>li>a{
+	text-decoration: none;
+	 list-style-type:none;
+}
+
 
 
 #page {
